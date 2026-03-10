@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 type BadgeVariant =
 | "veg"
-| "non-veg"
+| "nonveg"
 | "popular"
 | "vegan"
 | "quick"
@@ -36,7 +36,7 @@ Record<BadgeVariant, { badge: string; dot: string }>={
         badge: "bg-teal/10 text-teal border-teal/20",
         dot: "bg-teal",
         },
-    non-veg:{
+    nonveg:{
         badge: "bg-accent/10 text-accent border-accent/20",
         dot: "bg-accent",
     },
@@ -173,3 +173,5 @@ Record<BadgeVariant, { badge: string; dot: string }>={
   <Badge variant="urgency-normal" dot>On Time</Badge>
   <Badge variant="urgency-warning" dot>5+ min</Badge>
   <Badge variant="urgency-critical" dot pulse>10+ min</Badge>
+
+  */
